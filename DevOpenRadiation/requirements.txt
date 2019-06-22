@@ -1,4 +1,5 @@
-matplotlib
-requests
+requests==2.*
 json
 datetime
+numpy==1.16.*
+matplotlib==3.*
