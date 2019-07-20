@@ -1,4 +1,0 @@
-matplotlib==3.*
-requests
-json
-datetime
