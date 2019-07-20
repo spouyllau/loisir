@@ -1,0 +1,7 @@
+matplotlib
+json
+requests
+local
+tweepy
+yaml
+datetime
