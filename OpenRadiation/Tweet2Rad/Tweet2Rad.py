@@ -70,5 +70,5 @@ for element in data['data']:
         # Twitter authentification 
         api = initTwitter()
         # Push the tweet + graph (and a local print)
-        #api.update_with_media("t2r.png", status=tweet)
+        api.update_with_media("t2r.png", status=tweet)
         print(tweet)
