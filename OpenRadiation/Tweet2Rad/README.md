@@ -1,7 +1,6 @@
 # Tweet2Rad
 Twitter's bot who tweet OpenRadiation data. About this citizen-based not-for-profit project see [OpenRadiation web site](https://www.openradiation.org/en/about-us).
 
----
 ## Requirements
 
 Python 3 and modules, see [requirements](requirements.txt) : 
@@ -24,7 +23,7 @@ CONSUMER_SECRET: "XXXXXXX"
 ACCESS_KEY: "XXXXXXX"
 ACCESS_SECRET: "XXXXXXX"
 
-#OpenRadiation API
+# OpenRadiation API
 OR_API: "XXXXXXX"
 OR_APIKEY: "XXXXXXX"
 OR_API_TYPERESPONSE: "complete"
