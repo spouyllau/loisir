@@ -14,7 +14,7 @@ todayFR = datetime.today().strftime("%d %B %Y")
 
 # Resquest OpenRadiation API
 def initApiOpenRadiation():
-    with open("Tweet2Rad-.yml", "r") as conf:
+    with open("Tweet2Rad.yml", "r") as conf:
         t2r = yaml.safe_load(conf)
     url=t2r["OR_API"]
     params = dict(
@@ -33,7 +33,7 @@ data = json.loads(binary)
 
 # Initiation of Tweepy with Twitter account with Tweet2Rad.yml values
 def initTwitter():
-    with open("Tweet2Rad-.yml", "r") as conf:
+    with open("Tweet2Rad.yml", "r") as conf:
         t2r = yaml.safe_load(conf)
     auth = tweepy.OAuthHandler(t2r["CONSUMER_KEY"], t2r["CONSUMER_SECRET"])
     auth.set_access_token(t2r["ACCESS_KEY"], t2r["ACCESS_SECRET"])
@@ -57,7 +57,7 @@ for i in data["data"]:
 
 # Let's go !
 for element in data['data']: 
-    with open("Tweet2Rad-.yml", "r") as conf:
+    with open("Tweet2Rad.yml", "r") as conf:
         t2r = yaml.safe_load(conf)
     city = t2r["CITY"]
     msv = round(element['value'],3)
