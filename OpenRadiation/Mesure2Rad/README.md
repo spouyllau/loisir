@@ -45,7 +45,3 @@ before launch or cron it.
 Mesure2Rad call your own OpenRadiation data (with userid) and post a tweet with the last mesure of the day and a graphical history from the last 8 mesures.
 
 - To launch : `python3 Tweet2Rad.py` (or use crontab it)
-- To test : a Jupyter notebook version is awailable.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/spouyllau/loisir/master?filepath=Tweet2Rad%2FTweet2Rad.ipynb)
-
