@@ -33,6 +33,9 @@ OR_API_MAXNUMBER: "15"
 CITY: "Paris"
 ```
 
+OR_API_MAXNUMBER: "15" : is the nb of mesure for the graph.
+
+
 2/ Uncomment the line `
 
 ```
